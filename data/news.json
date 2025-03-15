@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Lanzamos nuestra nueva web",
+        "date": "15 de Octubre, 2023",
+        "excerpt": "Estamos emocionados de presentar nuestra nueva página web con un diseño moderno y funcionalidades mejoradas.",
+        "image": "img/gallery/pochitados.jpg",
+        "link": "#"
+    },
+    {
+        "id": 2,
+        "title": "Tendencias de diseño web para 2024",
+        "date": "5 de Octubre, 2023",
+        "excerpt": "Descubre las tendencias de diseño web que dominarán el próximo año y cómo implementarlas en tu sitio.",
+        "image": "img/gallery/pochitados.jpg",
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "La importancia del SEO en tu estrategia digital",
+        "date": "28 de Septiembre, 2023",
+        "excerpt": "Aprende por qué el SEO es fundamental para el éxito de tu negocio online y cómo mejorarlo.",
+        "image": "img/gallery/pochitados.jpg",
+        "link": "#"
+    }
+]

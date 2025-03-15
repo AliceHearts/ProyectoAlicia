@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - DevMasters</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css">
+</head>
+<body>
+    <!-- Barra de naegacion Navigation -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="DevMasters Logo">
+            <h1>DevMasters</h1>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Nuestros Proyectos</h2>
+        
+        <!-- Filtro de galería -->
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="web">Diseño Web</button>
+            <button class="filter-btn" data-filter="app">Aplicaciones</button>
+            <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+        </div>
+        
+        <!-- Galería -->
+        <div class="gallery-grid">
+            <!-- Diseño web -->
+            <div class="gallery-item" data-category="web">
+                <a href="https://source.unsplash.com/random/1200x900/?website" data-lightbox="gallery" data-title="Diseño web para restaurante">
+                    <img src="img/gallery/pochitados.jpg" alt="Diseño web para restaurante">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Restaurante Gourmet</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-item" data-category="web">
+                <a href="https://source.unsplash.com/random/1200x900/?portfolio" data-lightbox="gallery" data-title="Portfolio para fotógrafo">
+                    <img src="img/gallery/pochitados.jpg" alt="Portfolio para fotógrafo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Portfolio Fotográfico</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-item" data-category="web">
+                <a href="https://source.unsplash.com/random/1200x900/?corporate" data-lightbox="gallery" data-title="Web corporativa">
+                    <img src="img/gallery/pochitados.jpg" alt="Web corporativa">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Empresa Consultora</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- App -->
+            <div class="gallery-item" data-category="app">
+                <a href="https://source.unsplash.com/random/1200x900/?mobile-app" data-lightbox="gallery" data-title="Aplicación de fitness">
+                    <img src="img/gallery/pochitados.jpg" alt="Aplicación de fitness">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>FitTracker</h3>
+                            <p>Aplicación Móvil</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-item" data-category="app">
+                <a href="https://source.unsplash.com/random/1200x900/?food-app" data-lightbox="gallery" data-title="Aplicación de delivery">
+                    <img src="img/gallery/pochitados.jpg" alt="Aplicación de delivery">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>FoodExpress</h3>
+                            <p>Aplicación Móvil</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- E-Commerce -->
+            <div class="gallery-item" data-category="ecommerce">
+                <a href="https://source.unsplash.com/random/1200x900/?fashion-store" data-lightbox="gallery" data-title="Tienda de moda">
+                    <img src="img/gallery/pochitados.jpg" alt="Tienda de moda">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Fashion Store</h3>
+                            <p>E-Commerce</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-item" data-category="ecommerce">
+                <a href="https://source.unsplash.com/random/1200x900/?electronics-store" data-lightbox="gallery" data-title="Tienda de electrónica">
+                    <img src="img/gallery/pochitados.jpg" alt="Tienda de electrónica">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>TechShop</h3>
+                            <p>E-Commerce</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-item" data-category="ecommerce">
+                <a href="https://source.unsplash.com/random/1200x900/?furniture-store" data-lightbox="gallery" data-title="Tienda de muebles">
+                    <img src="img/gallery/pochitados.jpg" alt="Tienda de muebles">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Home Design</h3>
+                            <p>E-Commerce</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="DevMasters Logo">
+                <h3>DevMasters</h3>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Calle Ejemplo 123, Madrid</p>
+                <p><i class="fas fa-phone"></i> +34 912 345 678</p>
+                <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="eb82858d84ab8f8e9d868a989f8e9998c5888486">[email&#160;protected]</a></p>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/facebook/?locale=es_ES"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/twitter?lang=es"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/aliceunbounded_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://es.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DevMasters. Todos los derechos reservados.</p>
+            <p><a href="#">Aviso Legal</a> | <a href="#">Política de Privacidad</a></p>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script src="js/principal.js"></script>
+    <script src="js/galeria.js"></script>
+</body>
+</html>
